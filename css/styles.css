@@ -3,10 +3,32 @@ img {
   margin: auto;
 }
 
-/*h1 {
-  color: salmon;
+.navigation li {
+  display: inline;
   font-family: Tahoma;
-}*/
+  color: gray;
+  font-size: 20px;
+}
+
+.navigation a {
+  float: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: gray
+}
+
+.navigation a:hover {
+  background-color: gray;
+  color: white;
+}
+
+.profile img {
+  width: 400px;
+  height auto;
+  float: left;
+  margin-right: 30px;
+}
 
 .header {
   background-color: black;
@@ -14,3 +36,8 @@ img {
   padding: 10px 15px 10px 15px;
   margin-bottom: 20px;
 }
+
+/*.navbar {
+  background-color: salmon;
+  border: none;
+}*/

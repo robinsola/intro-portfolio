@@ -9,6 +9,13 @@ h3 {
   color: #66aa94;
 }
 
+blockquote {
+  color: #0da317;
+  margin: 40px;
+  padding: 20px;
+  font-size: 16px;
+}
+
 .subheader h4 {
   background-color: #66aa94;
   border: 2px solid #D5D5D5;
@@ -16,17 +23,7 @@ h3 {
   margin: 20px;
   color: white;
   font-family: georgia;
-}
-
-em {
-  font-family: georgia;
-}
-
-blockquote {
-  color: #0da317;
-  margin: 40px;
-  padding: 20px;
-  font-size: 16px;
+  text-align: center;
 }
 
 .navigation {
@@ -54,6 +51,7 @@ blockquote {
 .col-md-6 ul {
   border-left: 2px solid #D5D5D5;
   margin: 30px;
+  line-height: 28px;
 }
 
 .col-md-6 a {
@@ -71,6 +69,12 @@ blockquote {
 .highlight {
   color: salmon;
   font-style: italic;
+}
+
+.panel-body {
+  line-height: 30px;
+  font-family: cursive;
+  font-size: 16px;
 }
 
 .profile {

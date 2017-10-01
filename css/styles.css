@@ -5,7 +5,7 @@ img {
 }
 
 h3 {
-  line-height: 50px;
+  line-height: 45px;
   color: #66aa94;
 }
 
@@ -67,11 +67,10 @@ h3 {
   padding: 10px 20px 10px 20px;
   font-size: 16px;
   text-align: justify;
-  line-height: 30px;
+  line-height: 28px;
 }
 
 .profile a {
-  font-weight: 600;
   color: black;
 }
 
@@ -81,8 +80,7 @@ h3 {
 }
 
 .profile img {
-  /*width: 400px;
-  height: auto;*/
+  width: 100%;
   object-fit: contain;
 }
 
